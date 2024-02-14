@@ -1,7 +1,5 @@
 import express from 'express';
-import FileParser from 'file:///C:/Users/omerm/SI/02_Data_Files/reader_parser.js'; 
-
-
+import {FileParser}from 'file:///C:/Users/omerm/SI/02_Data_Files/reader_parser.js'; 
 
 
 class DataAPI {
