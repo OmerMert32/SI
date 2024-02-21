@@ -62,3 +62,6 @@ async function startAPI() {
 }
 
 startAPI();
+
+//npm init
+// nodemon app.js

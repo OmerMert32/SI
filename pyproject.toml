@@ -8,6 +8,8 @@ authors = ["Ömer Gökhan Mert <omer0204@stud.kea.dk>"]
 python = "^3.12"
 fastapi = "^0.109.2"
 uvicorn = "^0.27.1"
+requests = "^2.31.0"
+pyyaml = "^6.0.1"
 
 
 [build-system]

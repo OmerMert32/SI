@@ -1,8 +1,8 @@
-const fs = require('fs');
-const csv = require('csv-parser');
-const xml2js = require('xml2js');
-const yaml = require('js-yaml');
-const { promisify } = require('util');
+import fs from 'fs';
+import csv from 'csv-parser';
+import { parseString } from 'xml2js';
+import { load } from 'js-yaml';
+import { promisify } from 'util';
 
 const readFileAsync = promisify(fs.readFile);
 
