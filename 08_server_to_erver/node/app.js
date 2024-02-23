@@ -12,7 +12,7 @@ app.listen(8080, () => console.log("Server is running on port", PORT))
 
 app.get("/requestFastApi", async (req, res) => {
     try {
-      const response = await fetch('http://localhost:8000/fastapiData'); // Assuming FastAPI runs on localhost:8000
+      const response = await fetch('http://localhost:8000/fastapiData'); 
       const data = await response.json();
       res.json(data);
     } catch (error) {
